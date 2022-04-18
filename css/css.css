@@ -1,0 +1,207 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    border: solid 2px blue;
+    border-bottom: none;
+}
+.container{
+    margin: 0 auto;
+    width: 1300px;
+}
+html{
+
+
+    background-color:pink;
+}
+img{
+   
+    width: 70px;
+    height: 70px;
+}
+body{
+    background-color: #f8f8f8;
+    margin: 40px;
+   
+display: flex;
+height: 95%;
+flex-direction: column;
+}
+.border{
+    border: solid black 2px;
+    border-radius: 20px;
+}
+.button{
+    width: 100px;
+    height: 35px;
+}
+a:hover{
+    color:orange ;
+    
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+
+}
+.mainContacts{
+
+
+    margin-top: 50px;
+}
+
+
+
+input:focus{
+    color: crimson;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+
+textarea:focus{
+    color: crimson;
+}
+.cotalog{
+    border: 5px solid crimson;
+    width: 300px;
+    height: 300px;
+}
+.photo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+.menuFact{
+    margin-top: -1px;
+    
+}
+
+
+.menuFact>li{
+font-size: 30px;
+
+}
+.menuFact>li:first-child{
+    font-size: 50px;
+    margin-top: 10px;
+    border: solid 2px black;
+    border-radius: 20px;
+    background-color:red;
+    color: blue;
+}    
+
+
+
+
+
+.secMenu>li{
+    margin: 10px 10px;
+background-color: red;
+
+
+   
+}
+.menu ul .secMenu{
+    display: none;
+    flex-direction: row;
+}
+.menuFact>li:first-child:hover+li .secMenu, .menuFact>li:nth-child(2):hover .secMenu{
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px ;
+
+   
+}
+.menuFact:hover .secMenu>li{
+border-radius: 20px;
+
+}
+
+
+
+
+html{
+    height: 95%;
+}
+main{
+    flex-grow: 1;
+    border: solid 2px blue;
+}
+hr{
+
+  background-color:blue;
+  border: solid blue 1px;
+}
+.size-text{
+    text-align: center;
+    font-size: 45px;
+}
+.text-underimg{
+    display: flex;
+    justify-content: space-around;
+}
+header img{
+    padding-left: 50px;
+    
+}
+footer{
+    height: 60px;
+    background-color: royalblue;
+    border: solid 2px blue;
+    border-top: none;
+}
+
+
+footer h2{
+    text-align: right;
+    padding: 0px 40px 10px 0px;
+  }
+  .menu{
+width: 850px;
+
+  }
+  .menu ul{
+      /* justify-content: flex-end; */
+   flex-direction: column;
+   align-items: flex-end;
+   
+  }
+  input{
+    text-transform: capitalize;
+    ;  
+  }
+textarea{
+    text-transform: capitalize;
+}
+a{
+
+    text-decoration: none;
+}
+
+
+/* 
+.menuFact{
+position: relative;
+
+}
+.sub-menu{
+display: none;
+
+}
+.menuFact:hover .sub-menu{
+    display: block;
+}
+.menu>ul{
+    font-size: 30px;
+}
+.menu ul+ul{
+    background-color: #fff;
+} */
